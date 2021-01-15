@@ -1,0 +1,50 @@
+.mainTitle {
+  font-size: 40px;
+  color: brown;
+  text-align: center;
+  &:hover {
+    cursor: pointer;
+    color: black;
+  }
+}
+
+.listItemWrapper {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: burlywood;
+  border-radius: 5px;
+}
+
+.input {
+  margin-bottom: 30px;
+  font-size: 20px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.toDotextChecked {
+  text-decoration: line-through;
+  color: blue;
+}
+
+.toDotextUnchecked {
+  text-decoration: none;
+}
+
+.checkbox {
+  margin-left: 10px;
+  margin-right: 5px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.checkLabel {
+  font-size: 20px;
+  &:hover {
+    cursor: pointer;
+  }
+}
